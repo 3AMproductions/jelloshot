@@ -3,18 +3,148 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>JelloShot.com</title>
+<title>JelloShot.com | Home</title>
 
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="indexcss.css" type="text/css" media="screen" />
+<meta name="Description" content="Making sure you have a drink... and that it's not alone. JelloShot.com allows you to plan your party from start to finish, selling you supplies and making friends along the way." />
+<meta name="Keywords" content="alcohol, games, food, rum, vodka, tequila, beer, drinking, rules, wasted, crunk" />
+<link rel="stylesheet" href="indexcss02.css" type="text/css" media="screen" />
 
 </head>
 
 <body>
 
-<div id="header"></div>
-<div id="nav"><a href="index.htm"><img src="images/JelloShot_05.gif" border="0" /></a><a href="index.htm"><img src="images/JelloShot_06.gif" border="0" /></a><a href="index.htm"><img src="images/JelloShot_07.gif" border="0" /></a><a href="index.htm"><img src="images/JelloShot_08.gif" border="0" /></a></div>
-<div id="content"><a href="alcohol.htm"><img src="images/JelloShot_14.gif" border="0" /></a><a href="construction.htm"><img src="images/JelloShot_16.gif" border="0" /></a><a href="construction.htm"><img src="images/JelloShot_18.gif" border="0" /></a><a href="construction.htm"><img src="images/JelloShot_24.gif" border="0" /></a></div>
+<div id="header">
+<div class="container">
+  <h1>JelloShot.com</h1>
+ 	<form id="login" action="login.php" method="post">
+		<fieldset>
+		<legend>Login</legend>
+		<label for="username">Username: <input type="text" name="username" id="username"/></label>
+		<label for="password">Password: <input type="password" name="password" id="password"/></label>
+		<input type="submit" name="submit" id="submitlogin" value="Login"/>
+		</fieldset>
+		<p><a href="register.php" id="newacct" title="register a new account">or Register</a></p>
+	</form>
+</div><!--container-->
+</div><!--header-->
+
+<div class="container"><ul id="nav"><li><a href="index.htm" class="location">home</a></li><li><a href="mybar.htm">myBar</a></li><li><a href="index.htm">purchase</a></li><li><a href="index.htm">discuss</a></li><li><a href="index.htm">about us</a></li></ul></div><!--container-->
+
+<div id="top">
+<div class="container">
+	<div id="bestshot">
+  	<h2>Your Best Shots</h2>
+    <p class="beer">Miller Lite - Six Pack<br />$6.99</p>
+    <p class="games between">Cornhole<br />$14.99/night</p>
+    <p class="food">One Topping Pizza<br />Buy 1 get 1 free<br />$11.99/large</p>
+    <p class="beer between">Natty Lite<br />Cube (24 pack)<br />$9.99</p>
+    <p class="food">Two Topping Pizzas<br />Buy 1 get 1 free<br />$9.99/medium</p>
+  </div><!--bestshot-->
+  <div id="yourshot">
+  <h2>The Buckeye Shot</h2>
+  <div id="topshot">   	
+   	<h3>Washington Apple</h3>
+   	<span class="rating">2</span>
+  	<ul>
+  	 	<li>Canadian Whiskey</li>
+      <li>Sour Apple Liqueur</li>
+      <li>Cranberry Juice</li>
+  	</ul>
+   	<h4>Directions</h4>
+   	<p>First mix 1/3 crown royal, then 1/3 cranberry, and top it with some pucker.</p>
+   	<span class="possible">You <em>can</em> make this</span>
+  </div><!--topshot--> 
+  <div id="voteshot">  	
+    <img src="images/yourshot.gif" alt="Shotglass" />
+    <h4>Vote</h4>
+    <ul>
+    	<li class="between">Washington Apple</li>
+      <li>Sweedish Fish</li>
+      <li class="between">Cherry Bomb</li>
+    </ul>
+  </div><!--voteshot-->
+  </div><!--yourshot-->
+</div><!--container-->
+</div><!--top-->
+
+<div id="middle">
+<div class="container">
+	<div id="pictures">
+  	<h2>Party Shots</h2>
+    <ul>
+    	<li><img src="images/01.gif" alt="trial" width="115" /></li>
+      <li><img src="images/02.gif" alt="trial" width="115" /></li>
+      <li><img src="images/03.gif" alt="trial" width="115" /></li>
+      <li><img src="images/04.gif" alt="trial" width="115" /></li>
+      <li><img src="images/05.gif" alt="trial" width="115" /></li>
+      <li><img src="images/06.gif" alt="trial" width="115" /></li>
+   </ul>
+  </div><!--pictures-->
+</div><!--container-->
+</div><!--middle-->
+
+<div id="bottom">
+<div class="container">
+	<div id="drink01">
+  	<h3>Grape Monster</h3>
+    <span class="rating">3</span>
+  	<ul>
+    	<li>1oz Vodka</li>
+      <li>4oz Grape Soda</li>
+      <li>2oz Redbull</li>
+    </ul>
+    <h4>Directions</h4>
+    <p>Prepare a tall glass full of ice then add the Grape soda, next add the Energy Drink, next add the Vodka.</p>
+    <span class="possible">You <em>can</em> make this</span>
+    <ul class="between"><li class="name"><a href="#">John</a> says...</li><li>"This is an awesome drink, can't wait to try it"</li></ul>
+    <ul><li><a href="#">Bill</a> says...</li><li>"Had this last weekend and I got wasted!"</li></ul>
+    <ul class="between"><li><a href="#">Gilbert</a> says...</li><li>"This is weak, more alcohol!"</li></ul>
+    <ul><li><a href="#">see more comments</a> | <a href="#">leave comment</a></li></ul>
+  </div><!--drink01-->
+  <div id="drink02">
+  	<h3>Patriot Missile</h3>
+    <span class="rating">1</span>
+  	<ul>
+    	<li>1 part Blue Curacao</li>
+      <li>1 part Creme de Cacao</li>
+      <li>1 part Grenadine</li>
+      <li>Splash of 151</li>
+    </ul>
+    <h4>Directions</h4>
+    <p>Prepare a shot glass and layer the grenedine on the bottom, light creme de cacao on top of the grenedine and then blue curacao on top. It should turn out to look like an american flag! Top with 151 and light on fire to make a patriot missile.</p>
+    <span class="possible">You still need <a href="#">this</a></span>
+    <ul class="between"><li class="name"><a href="#">Beau</a> says...</li><li>"Just wanted to let everyone know that you've got to at least try this once"</li></ul>
+    <ul><li><a href="#">Pablo</a> says...</li><li>"This has got to be the worst shot I've ever tried"</li></ul>
+    <ul class="between"><li><a href="#">P.C. Chu</a> says...</li><li>"I invented this shot"</li></ul>
+    <ul><li><a href="#">see more comments</a> | <a href="#">leave comment</a></li></ul>
+  </div><!--drink02-->
+  <div id="drink03">
+  	<h3>Tequila Touchdown</h3>
+    <span class="rating">2</span>
+  	<ul>
+    	<li>4 parts Beer</li>
+      <li>1 part Gold Tequila</li>
+    </ul>
+    <h4>Directions</h4>
+    <p>Fill a shot glass with Jose Cuervo Especial gold tequila. Very slowly put the shot upside down inside a beer mug, making sure the tequila stays inside the shot glass. Slowly fill the mug with beer trying not to mix the tequila with the beer. With each sip, the Cuervo will come out of the shot glass.</p>
+    <span class="possible">You <em>can</em> make this</span>
+    <ul class="between"><li class="name"><a href="#">Raul</a> says...</li><li>"Bet you can't have just one of these..."</li></ul>
+    <ul><li><a href="#">Jessica</a> says...</li><li>"I like the shot, but it's kinda expensive to buy everything you need to make it."</li></ul>
+    <ul class="between"><li><a href="#">Laura</a> says...</li><li>"If I could drink this everyday I totally would"</li></ul>
+    <ul><li><a href="#">see more comments</a> | <a href="#">leave comment</a></li></ul>
+  </div><!--drink03-->
+</div><!--container-->
+</div><!--bottom-->
+
+<div id="footer">
+<div class="container">
+<span class="left"><a href="http://www.3amproductions.net">another 3AM Production</a></span>
+<a title="Validate as XHTML" rel="validate external" href="http://validator.w3.org/check?uri=http://jelloshot.3amproductions.net/index.htm"><abbr title="eXtensible Hypertext Markup Language"><acronym title="eXtensible Hypertext Markup Language">XHTML</acronym></abbr></a> |
+<a title="Validate CSS" rel="validate external" href="http://jigsaw.w3.org/css-validator/validator?uri=http://jelloshot.3amproductions.net/indexcss02.css"><abbr title="Cascading Style Sheets"><acronym title="Cascading Style Sheets">CSS</acronym></abbr></a> | 
+<a title="Validate as Section 508 Compliant" rel="validate external" href="http://www.contentquality.com/mynewtester/cynthia.exe?Url1=http://jelloshot.3amproductions.net/index.htm"><abbr title="Section 508"><acronym title="Section 508">508</acronym></abbr></a>
+</div><!--container-->
+</div><!--footer-->
 
 </body>
 
