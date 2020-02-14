@@ -1,0 +1,604 @@
+/*********************************** body ***************************************/
+
+*{margin:0;padding:0;}
+
+ul{ list-style: none; }
+
+body {
+	position: relative;
+	color: #000000;
+	background: #FF9000;
+	text-align: center;
+	font-size: 78%;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Verdana", "Century Gothic", sans-serif;
+}
+
+html {
+	/* http://www.splintered.co.uk/experiments/49/ */
+	min-height: 100%;
+	margin-bottom: 1px;
+}
+
+
+/********************************* top elements *********************************/
+
+#header {
+  background: #FFFFFF;
+  width: 100%;
+  border-bottom: 3px solid #00FF15;
+}
+
+.container {
+	width: 750px;
+	margin: 0px auto;
+}
+
+#header .container {
+  position: relative;
+  z-index: 10;
+  background: #FFFFFF url(images/logo.gif) 0px 16px no-repeat;
+  height: 160px;
+}
+
+#top {
+	width: 100%;
+	height: 48px;
+  margin: 25px 0px 0px 0px;
+  text-align: left;
+}
+
+#nav {
+	position: relative;
+  z-index: 10;
+	display: block;
+	font-size: 1.4em;
+  text-align: left;
+  margin-top: 4px;
+  padding: 3px;
+	/*border: 1px solid yellow;*/
+}
+
+#nav li {
+	margin-right: 1.0em;
+	display: inline;  
+}
+
+#middle, #myBarnav {
+	background: #00FF15;
+  clear: both;
+  margin: 0px;
+  padding: 15px 0px;
+  border-top: 3px solid #FFFFFF;
+  border-bottom: 3px solid #FFFFFF;
+}
+
+#bottom {
+	width: 100%;
+	height: 48px;
+  margin: 20px 0px;
+}
+
+#footer {
+	clear: both;
+  text-align: right;
+  background: #FFFFFF;
+  color: #FF9000;
+  padding: 30px 0px;
+  border-top: 3px solid #00FF15;
+}
+
+#footer span.left {
+  float: left;
+}
+
+br.iHateIE {
+  clear: left;
+  /*line-height: 1px;*/
+}
+
+div.jumface {
+  clear: both;
+  height: 10px;
+}
+
+
+/******************************** content sections ****************************/
+
+#bestshot {
+  width: 238px;
+  float: left;
+  border: 1px solid #FFDCAF;
+  background: #FFAF47;
+  margin-bottom: 15px;
+}
+
+#bestshot p {
+  text-align: right;
+  margin: 5px;
+  padding: 5px;
+}
+
+.between {
+  background: #FF9000;
+}
+
+p.beer {
+  background-image: url(images/BeerS.gif);
+  background-position: 26px center;
+  background-repeat: no-repeat;
+}
+
+p.games {
+  background-image: url(images/CornholeS.gif);
+  background-position: 10px center;
+  background-repeat: no-repeat;
+}
+
+p.food {
+  background-image: url(images/PizzaS.gif);
+  background-position: 12px center;
+  background-repeat: no-repeat;
+}
+
+#additems {
+  width: 430px;
+	border: 1px solid #FFFFFF;
+  background: #00FF15;
+  margin-bottom: 15px;
+	padding: 10px;
+  padding-right: 0px;
+}
+
+#additems div {
+  float: left;
+	margin-right: 10px;
+  margin-top: 10px;
+  padding: 5px;
+	width: 120px;
+  background: #D8FFDB;
+  font-size: 1.2em;
+}
+
+#additems div.last {
+  margin-right: 0px;
+  padding-right: 0px;
+  width: 120px;
+}
+
+#yourshot {
+	width: 490px;
+  float: right;
+  border: 1px solid #FFDCAF;
+  background: #FFAF47;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#yourshot .between {
+  /*background: #00FF15;*/
+  background:#FFDCAF;
+}
+
+#topshot {
+  /*margin-left: 248px;*/
+  float: left;
+  width: 250px;
+  background: #FFAF47;
+  margin-bottom: 15px;
+  /*border: 1px solid #FFDCAF;*/
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+#voteshot {
+  width: 232px;
+  margin-left: 252px;
+  margin-bottom: 10px;
+  /*border: 1px solid #FFDCAF;*/
+}
+
+#voteshot img {
+  margin: 15px 0px 10px 0px;
+}
+
+#menu {
+  width: 262px;
+	border: 1px solid #FFDCAF;
+  background: #FFAF47 url(images/photoID.jpg) 8px 8px no-repeat;
+  margin-bottom: 15px;
+  margin-right: 5px;
+	padding: 10px;
+	float: right;
+  font-size: 1.4em;
+  text-align: right;
+}
+
+#menu li span.rating {
+	font-size: 1.0em;
+  margin: 0px 15px;
+  float: none;
+  padding: 2px 5px;
+}
+
+#pictures {
+  text-align: left;
+  border: 1px solid #FFFFFF;
+  background: #4CFF5B;
+}
+
+#myBarnav .container div {
+  float: left;
+	margin: 0px 19px 0px 0px;
+  padding: 15px 15px 15px 45px;
+	width: 175px;
+  background: #D8FFDB url(images/arrow.gif) 15px 15px no-repeat;
+  background: #FF9000 url(images/arrow.gif) 15px 15px no-repeat;
+	text-align: left;
+  font-size: 1.4em;
+  border: 1px solid #FFFFFF;
+}
+
+#myBarnav .container div.last {
+  margin-right: 0px;
+}
+
+#drink01, #drink02, #drink03, #ads{
+  width: 234px;
+  float: left;
+  margin: 0px 19px 20px 0px;
+  border: 1px solid #FFDCAF;
+  background: #FFAF47;
+}
+
+#drink03 {
+  margin-right: 0px;
+}
+
+#ads {
+  height: 380px;
+}
+
+.rating {
+  float: right;
+  background: #FFFFFF;
+  color: #000000;
+  padding: 5px 12px;
+  margin: 15px 25px 15px 3px;
+  font-size: 2.8em;
+}
+
+#drink01 ul, #drink02 ul, #drink03 ul, #topshot ul {
+  text-align: left;
+  margin: 15px 10px 10px 10px;
+  padding: 0px;
+}
+
+#drink01 ul li, #drink02 ul li, #drink03 ul li, #topshot ul li {
+  padding: 0px 0px 0px 5px;
+}
+
+#drink01 p, #drink02 p, #drink03 p, #topshot p, #voteshot ul {
+  clear: both;
+  text-indent: 8px;
+  text-align: left;
+  margin: 0px 5px;
+  padding: 10px;
+  border: 1px solid #FF9000;
+}
+
+#topshot p, #voteshot ul {
+  clear: none;
+}
+
+.possible {
+  background: #FFFFFF;
+  color: #222222;
+  text-align: center;
+  font-size: 1.6em;
+  margin: 10px 5px;
+  display: block;
+}
+
+
+/********************************* links ********************************/
+
+a {
+  color: #FFFFFF;
+}
+
+a:hover, a:focus {
+  color: #FF9000;
+  background: #FFFFFF;
+}
+
+ul#nav a {
+	background: transparent;
+	color: #FFFFFF;
+  text-decoration: none;
+	width: 100%;
+  margin: 0px 3px;
+  padding: 10px 12px 6px 12px;
+}
+
+#nav li a.location {
+  color: #222222;
+	background: #FFFFFF;
+  border: 3px solid #00FF15;
+  border-top: 0px solid #FFFFFF;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+ul#nav li a:hover, ul#nav li a:focus {
+	color: #00FF15;
+}
+
+/*#myBarnav a {
+  color: #FF9000;
+}*/
+
+#bottom .possible a {
+  background: #EE0000;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 3px;
+}
+
+#bottom .possible a:hover, #bottom .possible a:focus, .possible em {
+  background: #00FF15;
+  color: #FFFFFF;
+  padding: 3px;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+#footer a {
+  background: #00FF15;
+  color: #000000;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+#footer a:hover, #footer a:focus {
+  background: #FF9000;
+  color: #FFFFFF;
+}
+
+
+
+/********************************* lists ********************************/
+
+#yourshot ul li {
+  padding: 5px;
+}
+
+#topshot ul {
+  margin: 5px;
+  color: #000000;
+  background: #FFAF47;
+  font-size: 1.0em;
+  font-weight: bold;
+  text-align: left;
+}
+
+#topshot ul li {
+  padding-left: 10px;
+}
+
+#voteshot ul li {
+  font-weight: bold;
+}
+
+#menu li {
+	margin-bottom: 5px;
+}
+
+#drink01 ul.between {
+  padding: 4px;
+}
+
+#pictures ul {
+  margin: 5px 0px 5px 6px;
+}
+
+#pictures ul li {
+  display: inline;
+  margin-right: 5px;
+}
+
+#pictures ul li.last {
+  margin: 0px;
+}
+
+
+
+/********************************* form ********************************/
+
+
+#login {
+  float: right;
+  background: #FF9000;
+  width: 220px;
+  margin: 18px 0px 0px 0px;
+  padding: 5px;
+  border: 3px solid #00FF15;
+  font-size: .8em;
+}
+
+fieldset {
+	border: none;
+  width: 100%;
+	padding: 0px 0px 0px 0px;
+  margin: 0px auto;
+}
+
+fieldset legend {
+  display: none;
+}
+
+fieldset label {
+	text-align: right;
+  display: block;
+  margin-bottom: 5px;
+}
+
+fieldset input, fieldset textarea {
+  width: 150px;
+  display: inline;
+  clear: both;
+}
+
+#submitlogin {
+  float: left;
+  width: 100%;
+  margin-bottom: 3px;
+}
+
+#login p {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 2px;
+}
+
+#login a {
+  background: #EE0000;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  text-decoration: none;
+  padding: 1px 10px;
+}
+
+#login a:hover, #login a:focus {
+  background: #00FF15;
+  color: #FFFFFF;
+}
+
+#additems label {
+	font-size: 2.0em;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+input#add {
+	font-size: 0.8em;
+  background: #D8FFDB;
+  width: 340px;
+}
+
+
+/********************************* tables ********************************/
+
+table {
+  border-collapse: collapse;
+  margin: 10px;
+  width: 90%;
+}
+
+table tbody td {
+	padding: 2px 10px;
+}
+
+table tbody td.last {
+  padding-top: 20px;
+}
+
+table tbody td a {
+  color: #FF9000;
+  background: #FFFFFF;
+  font-weight: bold;
+  padding: 0px 3px;
+}
+
+table tbody td a:hover {
+  background: #D8FFDB;
+  color: #000000;
+}
+
+table tbody td.last a {
+	/*background: #D8FFDB;*/
+  /*background: #FF9000;*/
+  background: #00FF15;
+  color: #FFFFFF;
+  padding: 5px;
+  font-size: 1.1em;
+}
+
+table tbody td.last a:hover, table tbody td.last a:focus {
+  background: #D8FFDB;
+  color: #000000;
+}
+
+
+/************************** header typestyles ***************************/
+
+h1
+{
+	display: none;
+
+	color: #FFFFFF;
+	background: #222222;
+	margin: -10px 0px 0px 0px;
+  padding: 0px 0px 10px 0px;
+	text-align: left;
+	font-size: 4em;
+	font-weight: normal;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Helvetica", "Century Gothic", sans-serif;
+}
+
+h2
+{
+	background: #FF9000;
+	color: #FFFFFF;
+  background: #00FF15;
+  color: #FFFFFF;
+  background: #FFFFFF;
+  color: #FF9000;
+  /*background: #00FF15;
+  color: #FFFFFF;*/
+  margin: 5px;
+  padding: 1px;
+	text-decoration: none;	
+	text-align: center;
+	font-size: 1.8em;
+	font-weight: bold;
+	font-family: "Trebuchet MS", "Tahoma", "Agency FB", "Helvetica", "Century Gothic", "Lucida Sans Unicode", sans-serif;
+}
+
+#middle h2
+{
+  background: #D8FFDB;
+  color: #222222;
+  margin: 0px;
+  padding: 2px;
+  text-align: center;
+  /*width: 4em;*/
+}
+
+h3
+{
+	background: #FF9000;
+	color: #FFFFFF;
+  text-decoration: underline;
+	margin: 5px;
+  padding: 5px;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Helvetica", "Century Gothic", sans-serif;
+}
+
+h4
+{
+	background: #FF9000;
+	color: #FFFFFF;
+	margin: 5px 5px 0px 5px;
+  padding: 2px 5px;
+  clear: both;
+	text-align: left;
+	font-size: 1.2em;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Helvetica", "Century Gothic", sans-serif;
+}
+
+#yourshot h4 { clear: none; }
